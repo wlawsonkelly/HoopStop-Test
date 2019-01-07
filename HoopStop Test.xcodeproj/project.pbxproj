@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		28AE45BB21E153DF00977F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45BA21E153DF00977F1E /* AppDelegate.swift */; };
-		28AE45BD21E153DF00977F1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45BC21E153DF00977F1E /* ViewController.swift */; };
 		28AE45C021E153DF00977F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AE45BE21E153DF00977F1E /* Main.storyboard */; };
 		28AE45C221E153E000977F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AE45C121E153E000977F1E /* Assets.xcassets */; };
 		28AE45C521E153E000977F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AE45C321E153E000977F1E /* LaunchScreen.storyboard */; };
 		28AE45D021E153E000977F1E /* HoopStop_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45CF21E153E000977F1E /* HoopStop_TestTests.swift */; };
 		28AE45DB21E153E000977F1E /* HoopStop_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45DA21E153E000977F1E /* HoopStop_TestUITests.swift */; };
+		28AE45E921E1567400977F1E /* MarsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45E821E1567400977F1E /* MarsTableController.swift */; };
+		28AE45EB21E159CA00977F1E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45EA21E159CA00977F1E /* Extension.swift */; };
+		28AE45EF21E168C600977F1E /* MarsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45EE21E168C600977F1E /* MarsCell.swift */; };
+		28AE45F121E1710100977F1E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45F021E1710100977F1E /* DetailsViewController.swift */; };
+		28AE45F321E2902800977F1E /* NasaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45F221E2902800977F1E /* NasaAPI.swift */; };
+		28AE45F521E290D900977F1E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45F421E290D900977F1E /* Photo.swift */; };
+		28AE45F721E291AB00977F1E /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE45F621E291AB00977F1E /* PhotoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		28AE45B721E153DF00977F1E /* HoopStop Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HoopStop Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AE45BA21E153DF00977F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28AE45BC21E153DF00977F1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28AE45BF21E153DF00977F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28AE45C121E153E000977F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28AE45C421E153E000977F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		28AE45D621E153E000977F1E /* HoopStop TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HoopStop TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AE45DA21E153E000977F1E /* HoopStop_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoopStop_TestUITests.swift; sourceTree = "<group>"; };
 		28AE45DC21E153E000977F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AE45E821E1567400977F1E /* MarsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsTableController.swift; sourceTree = "<group>"; };
+		28AE45EA21E159CA00977F1E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		28AE45EE21E168C600977F1E /* MarsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsCell.swift; sourceTree = "<group>"; };
+		28AE45F021E1710100977F1E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		28AE45F221E2902800977F1E /* NasaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaAPI.swift; sourceTree = "<group>"; };
+		28AE45F421E290D900977F1E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		28AE45F621E291AB00977F1E /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,15 @@
 		28AE45B921E153DF00977F1E /* HoopStop Test */ = {
 			isa = PBXGroup;
 			children = (
+				28AE45FA21E2C9DD00977F1E /* Controllers */,
+				28AE45F921E2C9D600977F1E /* Views */,
+				28AE45F821E2C94100977F1E /* NASA API JSON Stuff */,
 				28AE45BA21E153DF00977F1E /* AppDelegate.swift */,
-				28AE45BC21E153DF00977F1E /* ViewController.swift */,
 				28AE45BE21E153DF00977F1E /* Main.storyboard */,
 				28AE45C121E153E000977F1E /* Assets.xcassets */,
 				28AE45C321E153E000977F1E /* LaunchScreen.storyboard */,
 				28AE45C621E153E000977F1E /* Info.plist */,
+				28AE45EA21E159CA00977F1E /* Extension.swift */,
 			);
 			path = "HoopStop Test";
 			sourceTree = "<group>";
@@ -123,6 +138,33 @@
 				28AE45DC21E153E000977F1E /* Info.plist */,
 			);
 			path = "HoopStop TestUITests";
+			sourceTree = "<group>";
+		};
+		28AE45F821E2C94100977F1E /* NASA API JSON Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				28AE45F221E2902800977F1E /* NasaAPI.swift */,
+				28AE45F421E290D900977F1E /* Photo.swift */,
+				28AE45F621E291AB00977F1E /* PhotoStore.swift */,
+			);
+			path = "NASA API JSON Stuff";
+			sourceTree = "<group>";
+		};
+		28AE45F921E2C9D600977F1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28AE45EE21E168C600977F1E /* MarsCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28AE45FA21E2C9DD00977F1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28AE45E821E1567400977F1E /* MarsTableController.swift */,
+				28AE45F021E1710100977F1E /* DetailsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AE45BD21E153DF00977F1E /* ViewController.swift in Sources */,
+				28AE45F721E291AB00977F1E /* PhotoStore.swift in Sources */,
+				28AE45E921E1567400977F1E /* MarsTableController.swift in Sources */,
+				28AE45EF21E168C600977F1E /* MarsCell.swift in Sources */,
+				28AE45F521E290D900977F1E /* Photo.swift in Sources */,
 				28AE45BB21E153DF00977F1E /* AppDelegate.swift in Sources */,
+				28AE45F121E1710100977F1E /* DetailsViewController.swift in Sources */,
+				28AE45F321E2902800977F1E /* NasaAPI.swift in Sources */,
+				28AE45EB21E159CA00977F1E /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
